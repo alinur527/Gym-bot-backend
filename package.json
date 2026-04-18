@@ -1,0 +1,21 @@
+{
+  "name": "gym-tracker-bot-backend",
+  "version": "1.0.0",
+  "description": "Starter backend for Gym Tracker Telegram Mini App on TypeScript, Vercel and Supabase.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.3",
+    "@vercel/functions": "^3.4.3",
+    "grammy": "^1.42.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.9.3",
+    "vercel": "^51.7.0"
+  }
+}

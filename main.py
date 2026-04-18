@@ -13,7 +13,7 @@ async def debug_mode():
     try:
         token = os.getenv("BOT_TOKEN")
         url = os.getenv("SUPABASE_URL")
-        key = os.getenv("SUPABASE_KEY")
+        key = os.getenv("SUPABASE_KEY"
 
         if not token or not url or not key:
             return {"error": "ВНИМАНИЕ: Один из секретных ключей (Environment Variables) не найден в Vercel!"}
