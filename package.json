@@ -12,7 +12,8 @@
     "@supabase/supabase-js": "^2.103.3",
     "@vercel/functions": "^3.4.3",
     "grammy": "^1.42.0",
-    "node-telegram-bot-api": "^0.67.0"
+    "node-telegram-bot-api": "^0.67.0",
+    "openai": "^6.37.0"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
